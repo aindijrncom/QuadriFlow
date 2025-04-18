@@ -1,0 +1,10 @@
+prefix=D:/Desktop/GitHub/QuadriFlow/install
+exec_prefix=D:/Desktop/GitHub/QuadriFlow/install/bin
+libdir=D:/Desktop/GitHub/QuadriFlow/install/lib
+includedir=D:/Desktop/GitHub/QuadriFlow/install/include
+
+Name: LEMON
+Description: Library for Efficient Modeling and Optimization in Networks
+Version: 
+Libs: -L${libdir} -lemon     
+Cflags: -I${includedir}
